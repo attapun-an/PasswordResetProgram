@@ -58,11 +58,6 @@ def upper_lower_check(new_password):
     else:
         return False
 
-def main():
-    class user:
-        username = ""
-        password = ""
-
 def import_accounts_list():
     f = open("user_accounts.txt", "r")
     read = f.read()
@@ -81,6 +76,8 @@ def import_accounts_list():
             newItem = ""
     return accountsList
 
+def write_accounts_list(userID, new_password):
+    import_accounts_list()
 
 def login():
     accountsList = import_accounts_list()
@@ -107,21 +104,40 @@ def login():
 def self_destruct_sequence:
     import webbrowser
     f = open("spam.txt", "w")
+    new = 2 # open in a new tab, if possible
+
+    # open a public URL, in this case, the webbrowser docs
+    url = "https://www.youtube.com/watch?v=8ZcmTl_1ER8"
+    webbrowser.open(url, new=new)
     while True:
         f.write("KAPOW")
         new = 2 # open in a new tab, if possible
 
         # open a public URL, in this case, the webbrowser docs
-        url = "https://www.youtube.com/watch?v=8ZcmTl_1ER8"
+        url = "https://www.google.co.th/?gws_rd=cr&ei=szvZWPyTKcTevgSCjIjgBA"
         webbrowser.open(url, new=new)
 
-
+# def strength_test():
 
 def main():
+    import sys
     userID = login()
+    # will exit the program or self destruct if null user ID is returned
     if userID == "":
-        print("the computer will now self destruct")
-        self_destruct_sequence()
+        reaction = input("""you have failed, would you like to:
+        1) stop the script from running
+        2) initiate self destruct sequence""")
+        if reaction == "2":
+            print("the computer will now self destruct")
+            self_destruct_sequence()
+        else:
+            sys.exit()
+    new_password = change_password()
+    write_accounts_list()
+
+
+
+
 
 
 
