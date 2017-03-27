@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6791e7e-9f7c-4f8b-ae6f-28be1e94d6fc" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user_accounts.txt" afterPath="$PROJECT_DIR$/user_accounts.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,20 +20,20 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="119" column="22" lean-forward="false" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
+            <state relative-caret-position="273">
+              <caret line="146" column="41" lean-forward="true" selection-start-line="146" selection-start-column="41" selection-end-line="146" selection-end-column="41" />
               <folding>
                 <element signature="e#42#1028#0" expanded="false" />
                 <element signature="e#1066#1143#0" expanded="false" />
                 <element signature="e#1179#1466#0" expanded="false" />
                 <element signature="e#1509#1826#0" expanded="false" />
-                <element signature="e#1860#2302#0" expanded="false" />
-                <element signature="e#2396#3003#0" expanded="false" />
-                <element signature="e#3725#4026#0" expanded="false" />
-                <marker date="1490632063000" expanded="false" signature="3032:3549" ph="..." />
+                <element signature="e#1860#2324#0" expanded="false" />
+                <element signature="e#2690#3297#0" expanded="false" />
+                <element signature="e#3333#3847#0" expanded="false" />
+                <element signature="e#4021#4322#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -39,18 +42,18 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="348">
+              <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_accounts.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user_accounts.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user_accounts.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -71,11 +74,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/test_punctuation.py" />
-        <option value="$PROJECT_DIR$/user_accounts.txt" />
         <option value="$PROJECT_DIR$/test_self_destruct.py" />
+        <option value="$PROJECT_DIR$/test_replace.py" />
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/user_accounts.txt" />
       </list>
     </option>
   </component>
@@ -121,7 +125,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager" selected="Python.test_self_destruct">
+  <component name="RunManager" selected="Python.main">
     <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -345,8 +349,8 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.test_self_destruct" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test_self_destruct" />
         <item index="2" class="java.lang.String" itemvalue="Python.test_punctuation" />
         <item index="3" class="java.lang.String" itemvalue="Python.test" />
       </list>
@@ -383,7 +387,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -397,10 +401,10 @@
             <element signature="e#1066#1143#0" expanded="false" />
             <element signature="e#1179#1466#0" expanded="false" />
             <element signature="e#1509#1826#0" expanded="false" />
-            <element signature="e#1860#2302#0" expanded="false" />
-            <element signature="e#2396#3003#0" expanded="false" />
-            <element signature="e#3725#4026#0" expanded="false" />
-            <marker date="1490632063000" expanded="false" signature="3032:3549" ph="..." />
+            <element signature="e#1860#2324#0" expanded="false" />
+            <element signature="e#2690#3297#0" expanded="false" />
+            <element signature="e#3333#3847#0" expanded="false" />
+            <element signature="e#4021#4322#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -438,10 +442,10 @@
             <element signature="e#1066#1143#0" expanded="false" />
             <element signature="e#1179#1466#0" expanded="false" />
             <element signature="e#1509#1826#0" expanded="false" />
-            <element signature="e#1860#2302#0" expanded="false" />
-            <element signature="e#2396#3003#0" expanded="false" />
-            <element signature="e#3725#4026#0" expanded="false" />
-            <marker date="1490632063000" expanded="false" signature="3032:3549" ph="..." />
+            <element signature="e#1860#2324#0" expanded="false" />
+            <element signature="e#2690#3297#0" expanded="false" />
+            <element signature="e#3333#3847#0" expanded="false" />
+            <element signature="e#4021#4322#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -479,10 +483,10 @@
             <element signature="e#1066#1143#0" expanded="false" />
             <element signature="e#1179#1466#0" expanded="false" />
             <element signature="e#1509#1826#0" expanded="false" />
-            <element signature="e#1860#2302#0" expanded="false" />
-            <element signature="e#2396#3003#0" expanded="false" />
-            <element signature="e#3725#4026#0" expanded="false" />
-            <marker date="1490632063000" expanded="false" signature="3032:3549" ph="..." />
+            <element signature="e#1860#2324#0" expanded="false" />
+            <element signature="e#2690#3297#0" expanded="false" />
+            <element signature="e#3333#3847#0" expanded="false" />
+            <element signature="e#4021#4322#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -504,10 +508,10 @@
             <element signature="e#1066#1143#0" expanded="false" />
             <element signature="e#1179#1466#0" expanded="false" />
             <element signature="e#1509#1826#0" expanded="false" />
-            <element signature="e#1860#2302#0" expanded="false" />
-            <element signature="e#2396#3003#0" expanded="false" />
-            <element signature="e#3725#4026#0" expanded="false" />
-            <marker date="1490632063000" expanded="false" signature="3032:3549" ph="..." />
+            <element signature="e#1860#2324#0" expanded="false" />
+            <element signature="e#2690#3297#0" expanded="false" />
+            <element signature="e#3333#3847#0" expanded="false" />
+            <element signature="e#4021#4322#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -529,10 +533,10 @@
             <element signature="e#1066#1143#0" expanded="false" />
             <element signature="e#1179#1466#0" expanded="false" />
             <element signature="e#1509#1826#0" expanded="false" />
-            <element signature="e#1860#2302#0" expanded="false" />
-            <element signature="e#2396#3003#0" expanded="false" />
-            <element signature="e#3725#4026#0" expanded="false" />
-            <marker date="1490632063000" expanded="false" signature="3032:3549" ph="..." />
+            <element signature="e#1860#2324#0" expanded="false" />
+            <element signature="e#2690#3297#0" expanded="false" />
+            <element signature="e#3333#3847#0" expanded="false" />
+            <element signature="e#4021#4322#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -541,14 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_accounts.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -569,28 +565,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_replace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="348">
+          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="119" column="22" lean-forward="false" selection-start-line="119" selection-start-column="22" selection-end-line="119" selection-end-column="22" />
+        <state relative-caret-position="273">
+          <caret line="146" column="41" lean-forward="true" selection-start-line="146" selection-start-column="41" selection-end-line="146" selection-end-column="41" />
           <folding>
             <element signature="e#42#1028#0" expanded="false" />
             <element signature="e#1066#1143#0" expanded="false" />
             <element signature="e#1179#1466#0" expanded="false" />
             <element signature="e#1509#1826#0" expanded="false" />
-            <element signature="e#1860#2302#0" expanded="false" />
-            <element signature="e#2396#3003#0" expanded="false" />
-            <element signature="e#3725#4026#0" expanded="false" />
-            <marker date="1490632063000" expanded="false" signature="3032:3549" ph="..." />
+            <element signature="e#1860#2324#0" expanded="false" />
+            <element signature="e#2690#3297#0" expanded="false" />
+            <element signature="e#3333#3847#0" expanded="false" />
+            <element signature="e#4021#4322#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_accounts.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>

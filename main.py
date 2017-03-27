@@ -74,10 +74,20 @@ def import_accounts_list():
         else:
             accountsList.append(newItem)
             newItem = ""
+            f.close()
     return accountsList
 
-def write_accounts_list(userID, new_password):
-    import_accounts_list()
+def modify_accounts_list(userID, new_password):
+    accountsList= import_accounts_list()
+    accountsList[int(userID)+1] = new_password
+    write_accounts_list(accountsList)
+
+def write_accounts_list(accountsList):
+    f = open("user_accounts.txt", "w")
+    for i in range(len(accountsList)):
+        f.write(accountsList[i] + ",")
+    f.close()
+
 
 def login():
     accountsList = import_accounts_list()
@@ -101,7 +111,7 @@ def login():
             if i == 3:
                 return ""
 
-def self_destruct_sequence:
+def self_destruct_sequence():
     import webbrowser
     f = open("spam.txt", "w")
     new = 2 # open in a new tab, if possible
@@ -133,15 +143,8 @@ def main():
         else:
             sys.exit()
     new_password = change_password()
-    write_accounts_list()
-
-
-
-
-
-
-
-
+    modify_accounts_list(userID, new_password)
+    print("your password has been saved")
 
 main()
 
