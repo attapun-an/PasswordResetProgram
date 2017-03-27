@@ -63,12 +63,11 @@ def main():
         username = ""
         password = ""
 
-
-def login():
+def import_accounts_list():
     f = open("user_accounts.txt", "r")
     read = f.read()
-    print(read)
-    print(len(read))
+    # print(read)
+    # print(len(read))
     newItem = ""
     accountsList = []
     for i in range (len(read)):
@@ -80,29 +79,54 @@ def login():
         else:
             accountsList.append(newItem)
             newItem = ""
+    return accountsList
+
+
+def login():
+    accountsList = import_accounts_list()
     # print(accountsList)
     for i in range (3):
+        un = False
+        pw = False
+        username = input("username: ")
+        password = input("password: ")
         for i in range(0,len(accountsList),2):
-            username = input("username: ")
             if username == accountsList[i]:
-                password = input("password: ")
                 userID = i
-                if password == accountsList[i+1]:
-                    login_details = True
+                un = True
+            if password == accountsList[i+1]:
+                pw = True
 
-            if login_details == True:
-                print("pass")
-                break
-            else:
-                print("your username or password is incorrect")
+        if un == True and pw == True:
+            return userID
+        else:
+            print("your username or password is incorrect")
+            if i == 3:
+                return ""
+
+def self_destruct_sequence:
+    import webbrowser
+    f = open("spam.txt", "w")
+    while True:
+        f.write("KAPOW")
+        new = 2 # open in a new tab, if possible
+
+        # open a public URL, in this case, the webbrowser docs
+        url = "https://www.youtube.com/watch?v=8ZcmTl_1ER8"
+        webbrowser.open(url, new=new)
+
+
+
+def main():
+    userID = login()
+    if userID == "":
+        print("the computer will now self destruct")
+        self_destruct_sequence()
 
 
 
 
 
-
-
-
-login()
+main()
 
 

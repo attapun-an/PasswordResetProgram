@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6791e7e-9f7c-4f8b-ae6f-28be1e94d6fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_punctuation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user_accounts.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_self_destruct.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
     </list>
@@ -21,16 +19,18 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="84" column="37" lean-forward="false" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
+            <state relative-caret-position="160">
+              <caret line="111" column="8" lean-forward="true" selection-start-line="111" selection-start-column="8" selection-end-line="115" selection-end-column="37" />
               <folding>
                 <element signature="e#42#1028#0" expanded="false" />
                 <element signature="e#1066#1143#0" expanded="false" />
                 <element signature="e#1179#1466#0" expanded="false" />
                 <element signature="e#1509#1826#0" expanded="false" />
+                <element signature="e#1933#2375#0" expanded="false" />
+                <element signature="e#3401#3478#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -41,6 +41,26 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
               <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_punctuation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_punctuation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_self_destruct.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_self_destruct.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -75,6 +95,7 @@
         <option value="$PROJECT_DIR$/test_punctuation.py" />
         <option value="$PROJECT_DIR$/user_accounts.txt" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/test_self_destruct.py" />
       </list>
     </option>
   </component>
@@ -120,7 +141,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.test_self_destruct">
     <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,6 +189,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PasswordResetProgram" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_punctuation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_self_destruct" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PasswordResetProgram" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_self_destruct.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -319,16 +357,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.test" />
       <item index="1" class="java.lang.String" itemvalue="Python.main" />
       <item index="2" class="java.lang.String" itemvalue="Python.test_punctuation" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test_self_destruct" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test_punctuation" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.test_self_destruct" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test_punctuation" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +385,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32886904" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -377,6 +417,8 @@
             <element signature="e#1066#1143#0" expanded="false" />
             <element signature="e#1179#1466#0" expanded="false" />
             <element signature="e#1509#1826#0" expanded="false" />
+            <element signature="e#1933#2375#0" expanded="false" />
+            <element signature="e#3401#3478#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -414,6 +456,8 @@
             <element signature="e#1066#1143#0" expanded="false" />
             <element signature="e#1179#1466#0" expanded="false" />
             <element signature="e#1509#1826#0" expanded="false" />
+            <element signature="e#1933#2375#0" expanded="false" />
+            <element signature="e#3401#3478#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -451,6 +495,8 @@
             <element signature="e#1066#1143#0" expanded="false" />
             <element signature="e#1179#1466#0" expanded="false" />
             <element signature="e#1509#1826#0" expanded="false" />
+            <element signature="e#1933#2375#0" expanded="false" />
+            <element signature="e#3401#3478#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -472,6 +518,8 @@
             <element signature="e#1066#1143#0" expanded="false" />
             <element signature="e#1179#1466#0" expanded="false" />
             <element signature="e#1509#1826#0" expanded="false" />
+            <element signature="e#1933#2375#0" expanded="false" />
+            <element signature="e#3401#3478#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -493,6 +541,8 @@
             <element signature="e#1066#1143#0" expanded="false" />
             <element signature="e#1179#1466#0" expanded="false" />
             <element signature="e#1509#1826#0" expanded="false" />
+            <element signature="e#1933#2375#0" expanded="false" />
+            <element signature="e#3401#3478#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -505,11 +555,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_punctuation.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="50" lean-forward="false" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-          <folding />
+        <state relative-caret-position="160">
+          <caret line="111" column="8" lean-forward="true" selection-start-line="111" selection-start-column="8" selection-end-line="115" selection-end-column="37" />
+          <folding>
+            <element signature="e#42#1028#0" expanded="false" />
+            <element signature="e#1066#1143#0" expanded="false" />
+            <element signature="e#1179#1466#0" expanded="false" />
+            <element signature="e#1509#1826#0" expanded="false" />
+            <element signature="e#1933#2375#0" expanded="false" />
+            <element signature="e#3401#3478#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -529,16 +586,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/test_punctuation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="84" column="37" lean-forward="false" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
-          <folding>
-            <element signature="e#42#1028#0" expanded="false" />
-            <element signature="e#1066#1143#0" expanded="false" />
-            <element signature="e#1179#1466#0" expanded="false" />
-            <element signature="e#1509#1826#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_self_destruct.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
