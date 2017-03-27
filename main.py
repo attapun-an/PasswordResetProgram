@@ -1,3 +1,4 @@
+import string
 
 def change_password():
     pass_checker = True
@@ -57,8 +58,51 @@ def upper_lower_check(new_password):
     else:
         return False
 
+def main():
+    class user:
+        username = ""
+        password = ""
+
+
+def login():
+    f = open("user_accounts.txt", "r")
+    read = f.read()
+    print(read)
+    print(len(read))
+    newItem = ""
+    accountsList = []
+    for i in range (len(read)):
+        if read[i] != ",":
+            newItem += read[i]
+            """if i == len(read)-1:
+                new = newItem
+                accountsList.append(newItem)"""
+        else:
+            accountsList.append(newItem)
+            newItem = ""
+    # print(accountsList)
+    for i in range (3):
+        for i in range(0,len(accountsList),2):
+            username = input("username: ")
+            if username == accountsList[i]:
+                password = input("password: ")
+                userID = i
+                if password == accountsList[i+1]:
+                    login_details = True
+
+            if login_details == True:
+                print("pass")
+                break
+            else:
+                print("your username or password is incorrect")
 
 
 
 
-def main()
+
+
+
+
+login()
+
+
