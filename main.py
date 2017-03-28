@@ -113,7 +113,7 @@ def login():
 
 def self_destruct_sequence():
     import webbrowser
-    f = open("spam.txt", "w")
+    f = open("spam.txt", "w+")
     new = 2 # open in a new tab, if possible
 
     # open a public URL, in this case, the webbrowser docs
